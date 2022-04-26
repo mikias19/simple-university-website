@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IUniversity  Website Design </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,400;1,600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+<body>
+    
+
+<section class="header">  
+  <nav>
+
+        <a href="index.html"><img src="images/logo.png"></a>
+     <div  class="nav-links" id="navLinks">
+        <i class=" fa-times" aria-hidden="true" onclick="hidemenu()">Close</i>
+         <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+         </ul>     
+    </div>
+    <i class="fa-bars" aria-hidden="true" onclick="showmenu()">Menus</i>
+    
+  </nav>
+
+  <div class="text-box">
+        <h1>World's Biggest University</h1>
+        <p>Making website is now one of the easiest thing in the world 
+         you just need to learn HTML,CSS,<br>Javascripts and you are good to go. </p>
+         <a href="" class="hero-btn">Visit Us To Know More </a>
+  </div>
+  
+</section>
+
+   <!--  javascript for toggle menu  -->
+  <script>
+           var navlinks=document.getElementById("navLinks");
+
+           function showmenu(){
+
+            navlinks.style.right="0";
+
+           }
+
+           function hidemenu(){
+
+            navlinks.style.right="-200px";
+
+             }
+  </script>
+
+<!--   Course --> 
+<section class="course">
+     <h1>Courses We Offer </h1>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Reiciendis modi odio aut eum. Quos rerum sequi numquam molestias 
+        nesciunt eius vitae quidem molestiae, id ea obcaecati assumenda aperiam sint suscipit!
+     </p >
+
+     <div class="row">
+            <div class="course-col">
+                   <h3>Intermediate</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis illo illum facere voluptas? Fugit error quaerat 
+                       quisquam nesciunt magni odio culpa nobis debiti
+                       s maiores! Eaque sapiente architecto quas ducimus accusantium.</p>
+                </div>
+
+                <div class="course-col">
+                       <h3>Degree</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis illo illum facere voluptas? Fugit error quaerat 
+                       quisquam nesciunt magni odio culpa nobis debiti
+                       s maiores! Eaque sapiente architecto quas ducimus accusantium.</p>
+                    </div>
+
+                     <div class="course-col">
+                       <h3>Post Graduation</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis illo illum facere voluptas? Fugit error quaerat 
+                       quisquam nesciunt magni odio culpa nobis debiti
+                       s maiores! Eaque sapiente architecto quas ducimus accusantium.</p>
+            </div>    
+  
+     </div>
+
+</section>
+    <!--   Campus      -->
+<section class="campus">
+     <h1>Our Global Campus</h1>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente alias labore nostrum illo, a, quae eligendi officia maxime laudantium dolorum aliquam perferendis fuga molestias quisquam quasi libero vitae ea iure.</p>
+         <div class="row">
+              <div class="campus-col">
+                   <img src="images/london.png" >
+                    <div class="layer">
+                       <h3>LONDON</h3>
+                    </div>
+              </div>
+              <div class="campus-col">
+               <img src="images/newyork.png" >
+                <div class="layer">
+                   <h3>NEWYORK</h3>
+                </div>
+          </div>
+          <div class="campus-col">
+            <img src="images/washington.png" >
+             <div class="layer">
+                <h3>WASHINGTON</h3>
+             </div>
+       </div>
+         </div>
+   </section>
+
+   <!--    facilities    -->
+   <section  class="facilities">
+      <h1>  Ou r facilities </h1>
+      <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, a aliquam sequi quae dolor et natus rem tempora, odio fugit totam, sint ut placeat blanditiis laudantium illum debitis. Est, voluptatem.</p>
+       
+      <div class="row">
+         <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>World Class Library</h3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, impedit voluptatem assumenda nisi atque mollitia, laboriosam soluta, consequatur esse hic quo harum 
+               unde illum corporis quasi? Consequuntur pariatur aliquid asperiores?</P>
+         </div>
+
+         <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest play Ground</h3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, impedit voluptatem assumenda nisi atque mollitia, laboriosam soluta, consequatur esse hic quo harum 
+               unde illum corporis quasi? Consequuntur pariatur aliquid asperiores?</P>
+         </div>
+
+         <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Tasty and Healthy  Food</h3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, impedit voluptatem assumenda nisi atque mollitia, laboriosam soluta, consequatur esse hic quo harum 
+               unde illum corporis quasi? Consequuntur pariatur aliquid asperiores?</P>
+         </div>
+      </div>
+
+   </section>
+
+   <!--  testimonials   -->
+
+   <section class="testimonials">
+      <h1> What our Students says </h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, repellendus, quae cupiditate nihil asperiores magnam optio voluptatum laborum voluptas minima aliquam, 
+         necessitatibus aut obcaecati excepturi ipsam rem dolorum est mollitia?</p>
+      <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user1.jpg" >
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum laudantium quaerat libero fugiat impedit odit ipsa, necessitatibus magni aliquides.</p>
+            <h3>Chrisyine Berkley</h3>
+          </div>
+            <div class="testimonial-col">
+               <img src="images/user2.jpg" >
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum laudantium quaerat libero fugiat impedit odit ipsa, necessitatibus magni aliquides.</p>
+               <h3>David Byer</h3>
+              
+        </div>
+    </div>
+   </section>
+
+   <!--   call to action -->
+   <section  class="cta">
+
+      <h1>Enroll For Our Varius Online Courses<br> Anywhere From The World </h1>
+      <a href=""  class="hero-btn"> CONTACT US</a>
+   </section>
+     
+   <!--   Footer -->
+
+   <section class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt sint quae ipsum magni sit repellat est<br> perspiciatis 
+         fugiat commodi magnam ratione, rerum, quas amet nemo iusto quam tenetur deserunt vitae</p>
+   </section>
+   
+
+</body>
+</html>
